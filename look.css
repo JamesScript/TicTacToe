@@ -1,0 +1,31 @@
+@import url("https://s3.amazonaws.com/aws-website-nuclearfallin-y1bb0/TypoWriter.otf");
+
+body {
+    background: #ada996;
+    background: -webkit-linear-gradient(
+            to right,
+            #eaeaea,
+            #dbdbdb,
+            #f2f2f2,
+            #ada996
+    );
+    background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+    text-align: center;
+}
+
+canvas {
+    border: solid 3px white;
+    -webkit-box-shadow: 31px 17px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 31px 17px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 31px 17px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.turns * {
+    position: fixed;
+    bottom: 0%;
+    text-orientation: sideways;
+    font-family: TypoWriter, Courier;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
